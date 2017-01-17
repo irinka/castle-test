@@ -1,0 +1,54 @@
+.tall-tile {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: 320px;
+  height: 640px;
+
+  &__smaller {
+    width: 315px;
+  }
+
+  &__smallest {
+    width: 298px;
+  }
+
+  &_image {
+    position: absolute;
+    width: 320px;
+    height: 640px;
+    top: 0;
+
+    &__smallest {
+      width: 319px;
+    }
+
+    &__smaller {
+      width: 333px;
+    }
+  }
+
+  p {
+    font-size: 15px;
+    line-height: 1.3;
+  }
+
+  h2 {
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #2e2e2e;
+  }
+
+  &_text {
+    position: relative;
+    z-index: 1;
+    margin-top: 530px;
+    margin-left: 35px;
+
+    h2 {
+      font-size: 24px;
+      color: #2e2e2e;
+    }
+  }
+
+}

@@ -1,0 +1,25 @@
+.menu_item {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 35px;
+
+  a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: HeliosC, Arial, sans-serif;
+    font-size: 12px;
+    color: #000;
+    cursor: pointer;
+  }
+
+  a.version {
+    display: block;
+    margin-top: 3px;
+    background-color: #000;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    font-size: 9px;
+    border-radius: 1px;
+    padding: 0 3px;
+  }
+}

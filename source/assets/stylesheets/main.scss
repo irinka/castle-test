@@ -1,0 +1,119 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  font-size: 14px;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  color: #212121;
+  line-height: 1.5;
+}
+
+p {
+  font-size: 14px;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: HeliosLightC, Arial, sans-serif;
+}
+
+.container {
+  min-height: 100%;
+  position: relative;
+}
+
+.content {
+  max-width: 1440px;
+  margin: 0 auto;
+  overflow-x: hidden;
+  padding-bottom: 90px;
+}
+
+.header_nav {
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #f8f8f8;
+  height: auto;
+  z-index: 2;
+  padding: 20px 40px;
+  text-align: right;
+}
+
+.header_content {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.logo {
+  float: left;
+
+  &_image {
+    width: 28px;
+    height: 17px;
+  }
+}
+
+.locations-list {
+  display: inline-block;
+  vertical-align: top;
+
+  &_item {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 75px;
+  }
+
+  &_item:last-child {
+    margin-right: 0;
+  }
+}
+
+.city {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.about {
+  margin-top: 60px;
+  font-size: 0;
+}
+
+.image__left {
+  left: 0px;
+}
+
+.image__right {
+  right: 0;
+}
+
+.meetings {
+  font-size: 0;
+}
+
+.triangle__right {
+  right: 0;
+}
+
+.triangle__left {
+  left: -21px;
+}
+
+.hashteg {
+  position: absolute;
+  top: -65px;
+  font-size: 30px;
+  font-family: NovecentosanswideNormal, Arial, sans-serif;
+  color: rgba(77, 58, 59, 0.341);
+  margin-bottom: 10px;
+}
+
+.projects {
+  font-size: 0;
+}
+
+.image__small {
+  display: none;
+}

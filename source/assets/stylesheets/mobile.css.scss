@@ -1,0 +1,43 @@
+.wide-block {
+  width: 100%;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.big-block {
+  display: block;
+  width: 100%;
+  height: auto;
+
+  &_text {
+    padding-bottom: 20px;
+  }
+}
+
+.tall-tile {
+  width: 100%;
+
+  &_image {
+    width: 100%;
+  }
+}
+
+.small-block {
+  width: 100%;
+  height: auto;
+  overflow: visible;
+
+  &_image {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.separator_title {
+  width: 100%;
+  margin: 0;
+}
+
+header, footer {
+  display: none;
+}

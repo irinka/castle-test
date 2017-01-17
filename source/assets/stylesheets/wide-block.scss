@@ -1,0 +1,32 @@
+.wide-block {
+  position: relative;
+  width: 960px;
+  height: 161px;
+  box-sizing: border-box;
+  margin: 0 29% 0 11%;
+  padding: 0 0 35px 30px;
+  color: #fff;
+  text-align: left;
+
+  &_image {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  &_text {
+    position: relative;
+    z-index: 1;
+    padding-top: 60px;
+
+    p {
+      font-size: 15px;
+      line-height: 1.2;
+    }
+
+    h2 {
+      text-transform: uppercase;
+      font-size: 24px;
+    }
+  }
+}

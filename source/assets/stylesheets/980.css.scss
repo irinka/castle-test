@@ -1,0 +1,42 @@
+.image__small {
+  display: block;
+}
+
+.image__big {
+  display: none;
+}
+
+.wide-block{
+  width: 100%;
+  margin: 0;
+}
+
+.separator_title {
+  &__yellow, &__blue, &__red {
+    margin-left: 0
+  }
+}
+
+  .big_block {
+
+    &_image__full {
+      top: 120px;
+      transform: none;
+    }
+
+    &_text__left {
+      margin-top: 340px;
+      color: #fff;
+
+      h2 {
+        color: #fff;
+        font-size: 60px;
+        line-height: 70px;
+      }
+    }
+
+    &_text__right {
+      padding: 0 50px 0 0;
+    }
+
+  }

@@ -1,5 +1,112 @@
-.row
-  .container
-    h1 Middleman Startaê — It just works!
-    p A Middleman template with Sass, Slim, Hagrid, Coffeescript, Bower and more…
-    a.btn.btn--primary href='https://github.com/startae/middleman-startae' See the Github project
+.content
+  section#about.about
+    .wide-block
+      img.wide-block_image src="#{image_path("about/team.png")}"
+      .wide-block_text
+        h2 Team
+        p
+          | A team comprises a group of people
+          br
+          | or animals linked in a common purpose.
+    .big-block
+      img.big-block_image.big-block_image__full.image__left src="assets/images/about/crazy_team.png"
+      .big-block_text
+        h2 Awesome design. Great code. Crazy team.
+        p We have the experience, team and process to bring ideas from concept to launch and beyond. Since our founding in 2009, we've launched over 25 new products.
+    .tall-tile
+      .small-block
+        img.small-block_image src="" style="display: none"
+        .small-block_text
+          h2 Development
+          p
+            | Check out the timeline
+            br
+            | and be happy, dude.
+      .small-block
+        img.small-block_image src="#{image_path("about/design.png")}"
+        .small-block_text
+          h2 Design
+          p
+            | Check out the timeline
+            br
+            | and be happy, dude.
+    .tall-tile
+      img.tall-tile_image.tall-tile_image__left src="#{image_path("about/work.png")}"
+      .tall-tile_text
+        h2 Work
+        p
+          | Check out the timeline
+          br
+          | and be happy, dude.
+  section#meetings.meetings
+    .separator
+      .separator_title.separator_title__yellow
+        | Mettings
+        a.separator_button.separator_button__right href="#"
+    .tall-tile.tall-tile__smaller.triangle__right
+      img.tall-tile_image__smaller.image__right src="#{image_path("meetings/simakova.png")}"
+      .tall-tile_text
+    .tall-tile
+      .small-block
+        img.small-block_image src="" style="display: none"
+        .small-block_text.small-block_text__desc
+          h2 Tatiana Simakova
+          p Imagine if the new iPhone 5S was released a long time ago in a galaxy far far away...
+      .small-block
+        img.small-block_image src="assets/images/meetings/man.png" /
+        .small-block_text
+    .big-block.big-block__hidden.big-block__bigger
+      img.big-block_image.image__big src="assets/images/meetings/daria.png" /
+      img.big-block_image.image__small src="assets/images/980/daria.png" /
+      .big-block_text.big-block_text__left
+        .hashteg #11
+        h2 style="margin-left: -5px"  Daria Biruykova
+        p Imagine if the new iPhone 5S was released a long time ago in a galaxy far far away...
+        a.separator_button.separator_button__white href="#" style="margin-top: 20px"
+  section#events.events
+    .separator
+      .separator_title.separator_title__blue
+        | Events
+        a.separator_button.separator_button__right href="#"
+    .big-block.big-block__biggest
+      img.big-block_image.image__right src="#{image_path("events/jetbrains.png")}"
+      .big-block_text.big-block_text__right.text__white
+        h2 JetBrains two-days festival
+        p Imagine if the new iPhone 5S was released a long time ago in a galaxy far far away...
+        a.separator_button.separator_button__white href="#" style="margin-top: 20px"
+    .tall-tile
+      .small-block
+        img.small-block_image src="" style="display: none"
+        .small-block_text.small-block_text__desc
+          h3 JetBrains conference
+          p Imagine if the new iPhone 5S was released a long time ago in a galaxy far far away...
+      .small-block
+        img.small-block_image src="#{image_path("events/rabbit.png")}"
+        .small-block_text
+    .tall-tile.tall-tile__smallest.triangle__left
+      img.tall-tile_image__smallest.image__left src="#{image_path("events/child.png")}"
+      .tall-block_text
+  section#projects.projects
+    .separator
+      .separator_title.separator_title__red
+        | Projects
+        a.separator_button.separator_button__right href="#"
+    .tall-tile.tall-tile__smaller.triangle__right
+      img.tall-tile_image__smaller.image__right src="#{image_path("projects/mobile_b.png")}"
+      .tall-tile_text
+    .tall-tile
+      .small-block
+        img.small-block_image src="" style="display: none"
+        .small-block_text.small-block_text__desc
+          h2 Basiliq interface
+          p Imagine if the new iPhone 5S was released a long time ago in a galaxy far far away...
+      .small-block
+        img.small-block_image src="#{image_path("projects/mobile_r.png")}"
+        .small-block_text
+    .big-block.big-block__hidden
+      img.big-block_image.image__big src="#{image_path("projects/ha.png")}"
+      img.big-block_image.image__small src="#{image_path("980/ha.png")}"
+      .big-block_text.big-block_text__left
+        h2 House Account
+        p Imagine if the new iPhone 5S was released a long time ago in a galaxy  far far away...
+        a.separator_button href="#" style="margin-top: 20px"

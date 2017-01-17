@@ -1,0 +1,46 @@
+.small-block {
+  position: relative;
+  width: 320px;
+  box-sizing: border-box;
+  height: 320px;
+  overflow-x: hidden;
+
+  &_text {
+    max-width: 260px;
+    margin-top: 210px;
+    padding-left: 35px;
+    position: relative;
+    z-index: 1;
+
+    &.small-block_text__desc {
+      margin-top: 30px;
+      padding-left: 25px;
+
+      h2{
+        text-transform: none;
+        font-size: 60px;
+        font-family: HeliosThinC, Arial, sans-serif;
+        color: #483435;
+        line-height: 1;
+      }
+
+      h3{
+        text-transform: none;
+        font-size: 50px;
+        font-family: HeliosThinC, Arial, sans-serif;
+        color: #483435;
+        line-height: 1;
+        margin-bottom: 5px;
+      }
+    }
+  }
+
+  &_image {
+    position: absolute;
+    min-width: 320px;
+    width: 100%;
+    height: 320px;
+    top: 0;
+    left: 0;
+  }
+}

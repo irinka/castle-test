@@ -260,3 +260,5 @@ bower.json
 .byebug_history
 
 .idea
+
+bower_components

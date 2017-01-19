@@ -1,7 +1,12 @@
 {
-  "name": "Middleman Startae",
-  "description": "A starter template ready to run on Heroku",
-  "repository": "https://github.com/startae/middleman-startae",
-  "logo": "http://torspark.com/img/middleman-logo.png",
-  "keywords": ["middleman", "ruby", "static"]
+  "name": "Castle Test",
+  "description": "Demo project for Castle's frontend position",
+  "repository": "https://github.com/irinka/castle-test",
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs"
+    }, {
+      "url": "https://github.com/heroku/heroku-buildpack-ruby"
+    }
+  ]
 }

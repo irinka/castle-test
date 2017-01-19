@@ -4,6 +4,15 @@
   vertical-align: top;
   width: 320px;
   height: 640px;
+  overflow: hidden;
+
+  &__right {
+    right: 0;
+  }
+
+  &__left {
+    left: -21px;
+  }
 
   &__smaller {
     width: 315px;
@@ -23,7 +32,16 @@
       width: 319px;
     }
 
+    &__left {
+      left: 0px;
+    }
+
+    &__right {
+      right: 0;
+    }
+
     &__smaller {
+      height: 640px;
       width: 333px;
     }
   }

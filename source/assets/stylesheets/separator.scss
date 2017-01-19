@@ -38,6 +38,7 @@ a.separator_button {
   background-repeat: no-repeat;
   background-position: top 12px left 12px;
   text-decoration: none;
+  cursor: pointer;
 
   &__right {
     position: absolute;
@@ -55,10 +56,3 @@ a.separator_button {
   font-size: 0;
 }
 
-.text__white {
-  color: #fff;
-
-  h2 {
-    color: #fff;
-  }
-}

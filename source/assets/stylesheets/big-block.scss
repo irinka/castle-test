@@ -29,6 +29,15 @@
       top: 45%;
       transform: translateY(-50%);
     }
+
+    &__left {
+      left: 0px;
+    }
+
+    &__right {
+      right: 0;
+    }
+
   }
 
   &_text {
@@ -64,6 +73,14 @@
 
       p {
         padding: 0;
+      }
+    }
+
+    &__white {
+      color: #fff;
+
+      h2 {
+        color: #fff;
       }
     }
 

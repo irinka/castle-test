@@ -81,27 +81,11 @@ h2 {
   font-size: 0;
 }
 
-.image__left {
-  left: 0px;
-}
-
-.image__right {
-  right: 0;
-}
-
-.meetings {
+.meetings, .projects {
   font-size: 0;
 }
 
-.triangle__right {
-  right: 0;
-}
-
-.triangle__left {
-  left: -21px;
-}
-
-.hashteg {
+.hashtag {
   position: absolute;
   top: -65px;
   font-size: 30px;
@@ -110,10 +94,6 @@ h2 {
   margin-bottom: 10px;
 }
 
-.projects {
-  font-size: 0;
-}
-
-.image__small {
+.image__small, .menu-mobile_btn, .menu-mobile {
   display: none;
 }

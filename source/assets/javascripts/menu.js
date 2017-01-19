@@ -13,6 +13,8 @@ $(function () {
     $('html, body').animate({
       scrollTop: $(nameBlock).offset().top
     }, 500);
+    $('.menu-mobile').fadeOut(200);
+    show();
   })
 
   function show() {
@@ -31,5 +33,5 @@ $(function () {
     })
   }
 
-  hide();
+  show();
 });

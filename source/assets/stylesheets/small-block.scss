@@ -44,3 +44,51 @@
     left: 0;
   }
 }
+
+@media (min-width: 640px) and (max-width: 959px) {
+  .small-block {
+    width: 320px;
+    height: 320px;
+
+    &_image {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 639px) {
+  .small-block {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: visible;
+
+    &_image {
+      position: relative;
+      width: 100%;
+      height: auto;
+    }
+
+    &_text {
+      position: absolute;
+      margin-top: 0px;
+
+      &.small-block_text__desc {
+        position: initial;
+        margin: 10px 0 10px;
+        padding-left: 10px;
+
+        p {
+          font-size: 16px;
+        }
+
+        h2 {
+          font-size: 30px;
+        }
+      }
+    }
+  }
+}
+
+

@@ -4,7 +4,6 @@
   vertical-align: top;
   width: 320px;
   height: 640px;
-  overflow: hidden;
 
   &__right {
     right: 0;
@@ -33,7 +32,7 @@
     }
 
     &__left {
-      left: 0px;
+      left: -21px;
     }
 
     &__right {
@@ -68,5 +67,128 @@
       color: #2e2e2e;
     }
   }
-
 }
+
+@media (min-width: 960px) and (max-width: 1180px) {
+  .tall-tile {
+    width: 320px;
+
+    &__smaller {
+      width: 320px;
+    }
+
+    &__smallest {
+      width: 320px;
+    }
+
+    &_image {
+      width: 100%;
+
+      &__smaller {
+        width: 338px;
+      }
+
+      &__smallest {
+        width: 340px;
+      }
+    }
+  }
+}
+
+@media (min-width: 640px) and (max-width: 959px) {
+  .tall-tile {
+    width: 320px;
+
+    &:nth-child(2n+1) {
+      margin-left: calc(50% - 320px);
+    }
+
+    &:nth-child(2n+2) {
+      margin-right: calc(50% - 320px);
+    }
+
+    &__smaller {
+      width: 320px;
+      margin-left: calc(50% - 320px);
+      margin-right: 0!important;
+
+
+      &+.tall-tile {
+        margin-left: 0;
+        margin-right: calc(50% - 320px);
+      }
+    }
+
+    &__smallest {
+      width: 320px;
+    }
+
+    &_image {
+      width: 100%;
+
+      &__smaller {
+        width: 338px;
+      }
+
+      &__smallest {
+        width: 340px;
+      }
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 639px) {
+  .tall-tile {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+
+    &_image {
+      position: relative;
+      width: 100%;
+      height: auto;
+
+      &__smaller {
+        width: 110%;
+        height: auto;
+      }
+
+      &__smallest {
+        width: 110%;
+        margin-left: -10%;
+        height: auto;
+      }
+
+      &__left {
+        left: 0;
+      }
+    }
+
+    &__smaller, &__smallest {
+      width: 110%;
+      height: auto;
+    }
+
+    &_text {
+      margin: 0;
+      position: absolute;
+      bottom: 20px;
+      left: 10px;
+      text-align: left;
+
+      p {
+        font-size: 16px;
+      }
+
+      h2 {
+        font-size: 40px;
+      }
+    }
+
+    & .small-block:nth-child(2n) {
+      display: none;
+    }
+  }
+}
+
+

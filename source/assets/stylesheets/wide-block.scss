@@ -30,3 +30,39 @@
     }
   }
 }
+
+@media (min-width: 960px) and (max-width: 1180px) {
+  .wide-block{
+    width: 100%;
+    margin: 0;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 959px) {
+  .wide-block {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 639px) {
+  .wide-block {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+
+    &_image {
+      position: relative;
+    }
+
+    &_text {
+      padding-top:0;
+      position: absolute;
+      left: 10px;
+      top: 20px;
+    }
+  }
+}
+

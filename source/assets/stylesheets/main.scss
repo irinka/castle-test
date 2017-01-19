@@ -31,51 +31,6 @@ h2 {
   padding-bottom: 90px;
 }
 
-.header_nav {
-  position: fixed;
-  width: 100%;
-  box-sizing: border-box;
-  background-color: #f8f8f8;
-  height: auto;
-  z-index: 2;
-  padding: 20px 40px;
-  text-align: right;
-}
-
-.header_content {
-  max-width: 1440px;
-  margin: 0 auto;
-}
-
-.logo {
-  float: left;
-
-  &_image {
-    width: 28px;
-    height: 17px;
-  }
-}
-
-.locations-list {
-  display: inline-block;
-  vertical-align: top;
-
-  &_item {
-    display: inline-block;
-    vertical-align: top;
-    margin-right: 75px;
-  }
-
-  &_item:last-child {
-    margin-right: 0;
-  }
-}
-
-.city {
-  font-weight: bold;
-  margin-bottom: 15px;
-}
-
 .about {
   margin-top: 60px;
   font-size: 0;
@@ -85,15 +40,12 @@ h2 {
   font-size: 0;
 }
 
-.hashtag {
-  position: absolute;
-  top: -65px;
-  font-size: 30px;
-  font-family: NovecentosanswideNormal, Arial, sans-serif;
-  color: rgba(77, 58, 59, 0.341);
-  margin-bottom: 10px;
-}
+@media (min-width: 320px) and (max-width: 639px) {
+  .about {
+    margin-top: 0;
+  }
 
-.image__small, .menu-mobile_btn, .menu-mobile {
-  display: none;
+  .content {
+    padding-bottom: 50px;
+  }
 }

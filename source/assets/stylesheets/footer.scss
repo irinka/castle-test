@@ -44,3 +44,82 @@ a.footer_contacts-phone {
     margin-right: 35px;
   }
 }
+
+.locations-list {
+  display: inline-block;
+  vertical-align: top;
+
+  &_item {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 75px;
+  }
+
+  &_item:last-child {
+    margin-right: 0;
+  }
+}
+
+.city {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+@media (min-width: 960px) and (max-width: 1180px) {
+  .footer_contacts {
+    background-image: none;
+    padding-left: 50px;
+    margin-right: 110px;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 959px) {
+  .footer_container {
+    position: relative;
+    width: 640px;
+    margin: 0 auto;
+    padding: 25px 0 65px;
+  }
+
+  .footer_contacts {
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+    width: 640px;
+    box-sizing: border-box;
+    background-position: top 5px right 0;
+    padding-left: 0px;
+    padding-right: 90px;
+    text-align: right;
+    margin-right: 0;
+  }
+
+  .locations-list {
+    text-align: right;
+    display: block;
+    width: 640px;
+    margin: 10px auto 30px;
+  }
+
+  .social-list {
+    display: none;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 639px) {
+  .footer_container {
+    width: 100%;
+    margin: 0 35px 10px;
+    padding: 45px 0 0;
+  }
+
+  .footer_contacts {
+    width: 100%;
+    background-image: none;
+    padding-left: 0;
+  }
+
+  .locations-list {
+    display: none;
+  }
+}

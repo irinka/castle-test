@@ -1,0 +1,42 @@
+.header_nav {
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #f8f8f8;
+  height: auto;
+  z-index: 2;
+  padding: 20px 40px;
+  text-align: right;
+}
+
+.header_content {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.logo {
+  float: left;
+
+  &_image {
+    width: 28px;
+    height: 17px;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 959px) {
+  .header_nav {
+    padding: 20px 20px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 639px) {
+  .header_nav {
+    position: relative;
+  }
+
+  .logo_image {
+    padding-top: 7px;
+  }
+}
+
+

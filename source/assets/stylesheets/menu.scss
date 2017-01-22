@@ -3,6 +3,10 @@
   vertical-align: top;
   margin-right: 35px;
 
+  &:last-child {
+    margin-right: 0;
+  }
+
   a {
     text-transform: uppercase;
     text-decoration: none;

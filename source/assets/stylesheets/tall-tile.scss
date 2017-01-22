@@ -10,7 +10,7 @@
   }
 
   &__left {
-    left: -21px;
+    left: -20px;
   }
 
   &__smaller {
@@ -29,6 +29,7 @@
 
     &__smallest {
       width: 319px;
+      height: 640px;
     }
 
     &__left {
@@ -75,6 +76,10 @@
 
     &__smaller {
       width: 320px;
+    }
+
+    &__left {
+      left: -21px;
     }
 
     &__smallest {
@@ -132,6 +137,7 @@
 
       &__smallest {
         width: 340px;
+        height: auto;
       }
     }
   }

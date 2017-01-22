@@ -5,7 +5,7 @@
   background-color: #f8f8f8;
   height: auto;
   z-index: 2;
-  padding: 20px 40px;
+  padding: 20px 55px 20px 40px;
   text-align: right;
 }
 
@@ -23,6 +23,12 @@
   }
 }
 
+@media (min-width: 960px) and (max-width: 1180px) {
+  .header_nav {
+    padding: 20px 55px 20px 35px;
+  }
+}
+
 @media (min-width: 640px) and (max-width: 959px) {
   .header_nav {
     padding: 20px 20px;
@@ -32,6 +38,7 @@
 @media (min-width: 320px) and (max-width: 639px) {
   .header_nav {
     position: relative;
+    padding: 20px 35px 20px;
   }
 
   .logo_image {

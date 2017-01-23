@@ -1,17 +1,17 @@
 .header_nav {
   position: fixed;
   width: 100%;
-  box-sizing: border-box;
   background-color: #f8f8f8;
   height: auto;
   z-index: 2;
-  padding: 20px 55px 20px 40px;
   text-align: right;
 }
 
 .header_content {
+  box-sizing: border-box;
   max-width: 1440px;
   margin: 0 auto;
+  padding: 20px 55px 20px 40px;
 }
 
 .logo {
@@ -24,19 +24,19 @@
 }
 
 @media (min-width: 960px) and (max-width: 1180px) {
-  .header_nav {
+  .header_content {
     padding: 20px 55px 20px 35px;
   }
 }
 
 @media (min-width: 640px) and (max-width: 959px) {
-  .header_nav {
+  .header_content {
     padding: 20px 20px;
   }
 }
 
 @media (min-width: 320px) and (max-width: 639px) {
-  .header_nav {
+  .header_content {
     position: relative;
     padding: 20px 35px 20px;
   }

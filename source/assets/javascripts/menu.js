@@ -11,7 +11,7 @@ $(function () {
     e.preventDefault();
     var nameBlock = $(this).attr('href');
     $('html, body').animate({
-      scrollTop: $(nameBlock).offset().top
+      scrollTop: $(nameBlock).offset().top - 70
     }, 500);
     $('.menu-mobile').fadeOut(200);
     show();

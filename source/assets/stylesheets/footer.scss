@@ -66,6 +66,11 @@ a.footer_contacts-phone {
 }
 
 @media (min-width: 960px) and (max-width: 1180px) {
+  .footer_container {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
   .footer_contacts {
     background-image: none;
     padding-left: 50px;
